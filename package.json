@@ -1,0 +1,31 @@
+{
+  "name": "clean-blog",
+  "version": "1.0.0",
+  "description": "Blog",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sierra236/clean-blog.git"
+  },
+  "keywords": [
+    "text",
+    "blog",
+    "life"
+  ],
+  "author": "Doğan Yiğit ŞAHİN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sierra236/clean-blog/issues"
+  },
+  "homepage": "https://github.com/sierra236/clean-blog#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "prettier": "^2.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
