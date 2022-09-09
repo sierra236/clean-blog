@@ -2,6 +2,9 @@ const express = require("express");
 
 const app = express();
 
+//MIDDLEWARES
+app.use(express.static('public'))
+
 app.get("/", (req, res) => {
   const blog = {
     id: 1,
