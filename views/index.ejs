@@ -1,9 +1,9 @@
-<%-include('../partials/_header')-%>
+<%-include('partials/_header')-%>
 
 
 <body>
 
-  <%-include('../partials/_navigator')-%>
+  <%-include('partials/_navigator')-%>
 
   <!-- Page Header -->
   <header class="masthead" style="background-image: url('img/home-bg.jpg')">
@@ -28,7 +28,7 @@
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
         <div class="post-preview">
-          <a href="post">
+          <a href="/posts/<%= posts[i]._id %>">
             <h2 class="post-title">
               <%= posts[i].title %>
             </h2>
@@ -50,7 +50,7 @@
 
   <hr>
 
-  <%-include('../partials/_footer')-%>
+  <%-include('partials/_footer')-%>
 
 
   <!-- Bootstrap core JavaScript -->
